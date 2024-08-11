@@ -22,7 +22,7 @@ const BookDetail = () => {
                             'Authorization': authToken
                         }
                     });
-
+                     // this code is valid for Auth
                     // const session = await Auth.currentSession();
                     // const authToken = session.getIdToken().getJwtToken();
                     // const response = await axios.get(`https://zm5hn00d66.execute-api.us-east-1.amazonaws.com/stage1/book/${id}`, {
